@@ -1,0 +1,7 @@
+[gerrit]
+host=gerrit.aicp-rom.com
+port=29418
+project=AICP/proprietary_vendor_asus
+defaultbranch=mm6.0
+defaultremote=review
+defaultrebase=0
