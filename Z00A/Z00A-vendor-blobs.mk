@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
     vendor/asus/Z00A/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd \
-    vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0610_Asus_ZX551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0610_Asus_ZX551ML.hcd \
     vendor/asus/Z00A/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
     vendor/asus/Z00A/proprietary/lib/hw/camera.vendor.mofd_v1.so:system/lib/hw/camera.vendor.mofd_v1.so \
     vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
