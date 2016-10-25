@@ -131,15 +131,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02\
     vendor/asus/Z010D/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03\
     vendor/asus/Z010D/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt\
-    vendor/asus/Z010D/proprietary/etc/gps.conf:system/etc/gps.conf\
     vendor/asus/Z010D/proprietary/etc/icesoundconfig.def:system/etc/icesoundconfig.def\
     vendor/asus/Z010D/proprietary/etc/icesoundpresets.def:system/etc/icesoundpresets.def\
-    vendor/asus/Z010D/proprietary/etc/izat.conf:system/etc/izat.conf\
     vendor/asus/Z010D/proprietary/etc/lowi.conf:system/etc/lowi.conf\
-    vendor/asus/Z010D/proprietary/etc/sap.conf:system/etc/sap.conf\
     vendor/asus/Z010D/proprietary/etc/sensor_init.sh:system/etc/sensor_init.sh\
     vendor/asus/Z010D/proprietary/etc/tamcid:system/etc/tamcid \
-    vendor/asus/Z010D/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/asus/Z010D/proprietary/etc/gallery_arcsoft_config.cng:system/etc/gallery_arcsoft_config.cng
 
 PRODUCT_COPY_FILES += \
@@ -167,18 +163,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/Z010D/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/asus/Z010D/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/asus/Z010D/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/asus/Z010D/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/Z010D/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db
 
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so\
     vendor/asus/Z010D/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so\
     vendor/asus/Z010D/proprietary/lib/hw/sensors.AKM.msm8916.so:system/lib/hw/sensors.AKM.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so\
     vendor/asus/Z010D/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so\
     vendor/asus/Z010D/proprietary/lib64/hw/sensors.AKM.msm8916.so:system/lib64/hw/sensors.AKM.msm8916.so\
     vendor/asus/Z010D/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so\
@@ -187,14 +178,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib64/libcmdthread.so:system/lib64/libcmdthread.so
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/Z010D/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so\
     vendor/asus/Z010D/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so\
-    vendor/asus/Z010D/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so\
-    vendor/asus/Z010D/proprietary/lib/libloc_core.so:system/lib/libloc_core.so\
-    vendor/asus/Z010D/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so\
+    vendor/asus/Z010D/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so\
     vendor/asus/Z010D/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so\
-    vendor/asus/Z010D/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so\
-    vendor/asus/Z010D/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so
+    vendor/asus/Z010D/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so
 
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg\
