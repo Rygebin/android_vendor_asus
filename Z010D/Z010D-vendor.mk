@@ -25,13 +25,8 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libmm-abl \
     libtime_genoff \
-    QtiTelephonyService \
     shutdownlistener \
     TimeService \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp \
-    qcrilmsgtunnel \
-    QtiTetherService
+    qcrilmsgtunnel
 
 $(call inherit-product, vendor/asus/Z010D/Z010D-vendor-blobs.mk)
