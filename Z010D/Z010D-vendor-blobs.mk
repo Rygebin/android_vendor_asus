@@ -145,12 +145,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib/hw/sensors.AKM.msm8916.so:system/lib/hw/sensors.AKM.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib64/hw/sensors.AKM.msm8916.so:system/lib64/hw/sensors.AKM.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so\
-    vendor/asus/Z010D/proprietary/lib64/hw/sensors.PS_ALS.msm8916.so:system/lib64/hw/sensors.PS_ALS.msm8916.so\
     vendor/asus/Z010D/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so\
     vendor/asus/Z010D/proprietary/lib64/libcmdthread.so:system/lib64/libcmdthread.so
 
