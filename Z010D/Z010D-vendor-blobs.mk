@@ -277,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so\
-    vendor/asus/Z010D/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so\
@@ -835,7 +834,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so\
-    vendor/asus/Z010D/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so\
