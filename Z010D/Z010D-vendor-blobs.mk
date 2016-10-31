@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/Z010D/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so\
+    vendor/asus/Z010D/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so\
     vendor/asus/Z010D/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so\
     vendor/asus/Z010D/proprietary/lib64/libcmdthread.so:system/lib64/libcmdthread.so
 
