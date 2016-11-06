@@ -201,14 +201,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so\
     vendor/asus/Z010D/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so\
     vendor/asus/Z010D/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so\
+    vendor/asus/Z010D/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so\
     vendor/asus/Z010D/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so\
     vendor/asus/Z010D/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so\
     vendor/asus/Z010D/proprietary/lib/libmpbase.so:system/lib/libmpbase.so\
+    vendor/asus/Z010D/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so\
+    vendor/asus/Z010D/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so\
     vendor/asus/Z010D/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so\
+    vendor/asus/Z010D/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so\
+    vendor/asus/Z010D/proprietary/lib/libsarcsoft_gallery.so:system/lib/libsarcsoft_gallery.so\
+    vendor/asus/Z010D/proprietary/lib/libsphere3.so:system/lib/libsphere3.so\
     vendor/asus/Z010D/proprietary/lib/libxditk_ArcSoftMOD.so:system/lib/libxditk_ArcSoftMOD.so\
     vendor/asus/Z010D/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so\
     vendor/asus/Z010D/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so\
-    vendor/asus/Z010D/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so
+    vendor/asus/Z010D/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
+    vendor/asus/Z010D/proprietary/lib/style.cng:system/lib/style.cng
+
+PRODUCT_COPY_FILES += \
+    vendor/asus/Z010D/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng
 
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
