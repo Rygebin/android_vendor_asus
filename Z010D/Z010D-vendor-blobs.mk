@@ -54,6 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml\
     vendor/asus/Z010D/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml\
     vendor/asus/Z010D/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf\
+    vendor/asus/Z010D/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml\
+    vendor/asus/Z010D/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml\
+    vendor/asus/Z010D/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml\
     vendor/asus/Z010D/proprietary/etc/firmware/phone_ct/LUT_C01.txt:system/etc/firmware/phone_ct/LUT_C01.txt\
     vendor/asus/Z010D/proprietary/etc/firmware/phone_ct/LUT_C02.txt:system/etc/firmware/phone_ct/LUT_C02.txt\
     vendor/asus/Z010D/proprietary/etc/firmware/phone_ct/LUT_C03.txt:system/etc/firmware/phone_ct/LUT_C03.txt\
