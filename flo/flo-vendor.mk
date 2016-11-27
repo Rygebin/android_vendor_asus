@@ -50,9 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/asus/flo/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/flo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -75,11 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/asus/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
-    vendor/asus/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/asus/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/flo/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/asus/flo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/asus/flo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/flo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/asus/flo/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/asus/flo/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
