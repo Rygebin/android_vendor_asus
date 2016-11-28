@@ -1,6 +1,5 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/adsprpcd:system/bin/adsprpcd\
-    vendor/asus/Z010D/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon\
     vendor/asus/Z010D/proprietary/bin/btnvtool:system/bin/btnvtool\
     vendor/asus/Z010D/proprietary/bin/camera_flash2:system/bin/camera_flash2\
     vendor/asus/Z010D/proprietary/bin/camera_flash:system/bin/camera_flash\
@@ -14,12 +13,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/dit_cali:system/bin/dit_cali\
     vendor/asus/Z010D/proprietary/bin/dpmd:system/bin/dpmd\
     vendor/asus/Z010D/proprietary/bin/ftmdaemon:system/bin/ftmdaemon\
-    vendor/asus/Z010D/proprietary/bin/garden_app:system/bin/garden_app\
     vendor/asus/Z010D/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon\
     vendor/asus/Z010D/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon\
     vendor/asus/Z010D/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init\
     vendor/asus/Z010D/proprietary/bin/irsc_util:system/bin/irsc_util\
-    vendor/asus/Z010D/proprietary/bin/IR_sensor_module_number:system/bin/IR_sensor_module_number\
     vendor/asus/Z010D/proprietary/bin/LaserFocus_CalStart:system/bin/LaserFocus_CalStart\
     vendor/asus/Z010D/proprietary/bin/LaserFocus_enforce:system/bin/LaserFocus_enforce\
     vendor/asus/Z010D/proprietary/bin/LaserFocus_on:system/bin/LaserFocus_on\
@@ -27,11 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/LaserOn:system/bin/LaserOn\
     vendor/asus/Z010D/proprietary/bin/lightsensor_calibration_start:system/bin/lightsensor_calibration_start\
     vendor/asus/Z010D/proprietary/bin/loc_launcher:system/bin/loc_launcher\
-    vendor/asus/Z010D/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm\
     vendor/asus/Z010D/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon\
     vendor/asus/Z010D/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance\
     vendor/asus/Z010D/proprietary/bin/netmgrd:system/bin/netmgrd\
-    vendor/asus/Z010D/proprietary/bin/nl_listener:system/bin/nl_listener\
     vendor/asus/Z010D/proprietary/bin/proximity_calibration_start:system/bin/proximity_calibration_start\
     vendor/asus/Z010D/proprietary/bin/ProximityCalibration:system/bin/ProximityCalibration\
     vendor/asus/Z010D/proprietary/bin/proximity_poll_get_proxm:system/bin/proximity_poll_get_proxm\
@@ -39,12 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/qmuxd:system/bin/qmuxd\
     vendor/asus/Z010D/proprietary/bin/qseecomd:system/bin/qseecomd\
     vendor/asus/Z010D/proprietary/bin/radish:system/bin/radish\
-    vendor/asus/Z010D/proprietary/bin/RestoreCalibrationData:system/bin/RestoreCalibrationData\
     vendor/asus/Z010D/proprietary/bin/rfs_access:system/bin/rfs_access\
     vendor/asus/Z010D/proprietary/bin/rmt_storage:system/bin/rmt_storage\
     vendor/asus/Z010D/proprietary/bin/time_daemon:system/bin/time_daemon\
-    vendor/asus/Z010D/proprietary/bin/vm_bms:system/bin/vm_bms\
-    vendor/asus/Z010D/proprietary/bin/wdsdaemon:system/bin/wdsdaemon\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_afCali:system/bin/ZC550KL_afCali\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_OV5670_DUT_CONFIG:system/bin/ZC550KL_OV5670_DUT_CONFIG\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_T4K37_DUT_CONFIG:system/bin/ZC550KL_T4K37_DUT_CONFIG
@@ -110,10 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw\
     vendor/asus/Z010D/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw\
     vendor/asus/Z010D/proprietary/etc/firmware/Phone_vivid.txt:system/etc/firmware/Phone_vivid.txt\
-    vendor/asus/Z010D/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin\
-    vendor/asus/Z010D/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin\
-    vendor/asus/Z010D/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin\
-    vendor/asus/Z010D/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin\
     vendor/asus/Z010D/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00\
     vendor/asus/Z010D/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01\
     vendor/asus/Z010D/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02\
@@ -137,8 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/icesoundconfig.def:system/etc/icesoundconfig.def\
     vendor/asus/Z010D/proprietary/etc/icesoundpresets.def:system/etc/icesoundpresets.def\
     vendor/asus/Z010D/proprietary/etc/lowi.conf:system/etc/lowi.conf\
-    vendor/asus/Z010D/proprietary/etc/sensor_init.sh:system/etc/sensor_init.sh\
-    vendor/asus/Z010D/proprietary/etc/tamcid:system/etc/tamcid \
     vendor/asus/Z010D/proprietary/etc/gallery_arcsoft_config.cng:system/etc/gallery_arcsoft_config.cng
 
 PRODUCT_COPY_FILES += \
