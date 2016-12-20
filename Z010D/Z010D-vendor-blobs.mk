@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib64/libcmdthread.so:system/lib64/libcmdthread.so\
     vendor/asus/Z010D/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf
 
-
 PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so\
     vendor/asus/Z010D/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so\
